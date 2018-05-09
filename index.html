@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- отмена уменьшения масштаба в мобильных браузеров -->
+    <meta name="viewport" content="width=device-width">
+    <title>Домашний мастер</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="hamburgers-master/dist/hamburgers.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <div class="logo">
+          <img src="" alt="Logo">
+        </div>
+
+        <button class="hamburger hamburger--slider" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+
+
+          <ul class="menu__list">
+            <!-- <li class="menu__list__item logo">
+              <a href="">Главная</a>
+            </li> -->
+            <li class="menu__list__item">
+              <a href="">Сделай сам</a>
+            </li>
+            <li class="menu__list__item">
+              <a href="">Форум</a>
+            </li>
+          </ul>
+
+
+
+      </nav>
+    </header>
+    <main>
+      <section class="search">
+        <div class="form-search">
+          <p class="form-search__logo"></p>
+          <h1 class="form-search__header">Поиск мастеров в Вашем городе</h1>
+          <form action="" method="get" class="form">
+            <div class="region">
+              <label for="region__list">Регион:</label>
+              <select name="region__list" id="" class="region__select select">
+                <option value="" class="region__select__item">Москва</option>
+                <option value="" class="region__select__item">Санкт-Петербург</option>
+                <option value="" class="region__select__item">Мурманск</option>
+                <option value="" class="region__select__item">Пермь</option>
+                <option value="" class="region__select__item">Новосибирск</option>
+              </select>
+            </div>
+            <div class="master">
+              <label for="master__list">Услуга:</label>
+              <select name="master__list" id="" class="master__select select">
+                <option value="" class="master__select__item">Покраска стен</option>
+                <option value="" class="master__select__item">Покрейка обоев</option>
+                <option value="" class="master__select__item">Вскрытие дверей</option>
+                <option value="" class="master__select__item">Ремонт машины</option>
+                <option value="" class="master__select__item">Починка труб</option>
+              </select>
+            </div>
+            <button type="button" name="button" class="form-search__btn">Поиск мастера</button>
+          </form>
+        </div>
+      </section>
+      <div class="steps">
+        <div class="steps-list">
+          <div class="step">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Выбери регион</span>
+          </div>
+          <div class="step">
+            <i class="fas fa-wrench"></i>
+            <span>Выбери мастера</span>
+          </div>
+          <div class="step">
+            <i class="fas fa-comment-dots"></i>
+            <span>Оставь отзыв</span>
+          </div>
+        </div>
+      </div>
+      <section class="categories">
+        <div class="category-wrapper">
+          <h3 class="category-title">Наши услуги</h3>
+          <ul class="category">
+            <li class="category__item">
+              <i class="fas fa-cut"></i>
+              <a href="" class="category__item-link">Ателье</a>
+            </li>
+            <li class="category__item">
+              <i class="fas fa-wrench"></i>
+              <a href="#" class="category__item-link">Бытовая техника</a>
+            </li>
+            <li class="category__item">
+              <i class="fas fa-lock-open"></i>
+              <a href="#" class="category__item-link">Вскрытие замков</a>
+            </li>
+            <li class="category__item">
+              <i class="fas fa-key"></i>
+              <a href="#" class="category__item-link">Домофоны</a>
+            </li>
+            <li class="category__item">
+              <i class="fas fa-caret-square-right"></i>
+              <a href="#" class="category__item-link">Клининг</a>
+            </li>
+            <li class="category__item">
+              <i class="fas fa-desktop"></i>
+              <a href="#" class="category__item-link">Компьютеры</a>
+            </li>
+            <li class="category__item">
+              <i class="fas fa-caret-square-right"></i>
+              <a href="#" class="category__item-link">Окна</a>
+            </li>
+            <li class="category__item">
+              <i class="fas fa-tint"></i>
+              <a href="#" class="category__item-link">Отделочные работы</a>
+            </li>
+            <li class="category__item">
+              <i class="fas fa-home"></i>
+              <a href="#" class="category__item-link">Плотницкие работы</a>
+            </li>
+            <li class="category__item">
+              <i class="fas fa-caret-square-right"></i>
+              <a href="#" class="category__item-link">Потолки</a>
+            </li>
+            <li class="category__item">
+              <i class="fas fa-bath"></i>
+              <a href="#" class="category__item-link">Санхетника</a>
+            </li>
+            <li class="category__item">
+              <i class="fas fa-caret-square-right"></i>
+              <a href="#" class="category__item-link">Тепло и холод</a>
+            </li>
+            <li class="category__item">
+              <i class="fas fa-plug"></i>
+              <a href="#" class="category__item-link">Электрика</a>
+            </li>
+            <li class="category__item">
+              <i class="fas fa-gavel"></i>
+              <a href="#" class="category__item-link">Юридические услуги</a>
+            </li>
+            <li class="category__item">
+              <i class="fas fa-caret-square-right"></i>
+              <a href="#" class="category__item-link">Прочее</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="content">
+        <div class="content__item">
+          <h2 class="company-name">
+            <a href="#" class="company-name_link">Рога и копыта</a>
+          </h2>
+          <div class="company-location">Адрес: Саратовская обл.,Балаково, ул.Комарова, 137</div>
+          <div class="company-phone">Телефон: +7 (937) 639-52-91</div>
+          <div class="company-time">Время работы: пн-пт 8:00–17:00</div>
+        </div>
+        <div class="content__item">
+          <h2 class="company-name">
+            <a href="#" class="company-name_link">Рога и копыта</a>
+          </h2>
+          <div class="company-location">Адрес: Саратовская обл.,Балаково, ул.Комарова, 137</div>
+          <div class="company-phone">Телефон: +7 (937) 639-52-91</div>
+          <div class="company-time">Время работы: пн-пт 8:00–17:00</div>
+        </div>
+        <div class="content__item">
+          <h2 class="company-name">
+            <a href="#" class="company-name_link">Рога и копыта</a>
+          </h2>
+          <div class="company-location">Адрес: Саратовская обл.,Балаково, ул.Комарова, 137</div>
+          <div class="company-phone">Телефон: +7 (937) 639-52-91</div>
+          <div class="company-time">Время работы: пн-пт 8:00–17:00</div>
+        </div>
+        <div class="content__item">
+          <h2 class="company-name">
+            <a href="#" class="company-name_link">Рога и копыта</a>
+          </h2>
+          <div class="company-location">Адрес: Саратовская обл.,Балаково, ул.Комарова, 137</div>
+          <div class="company-phone">Телефон: +7 (937) 639-52-91</div>
+          <div class="company-time">Время работы: пн-пт 8:00–17:00</div>
+        </div>
+        <div class="content__item">
+          <h2 class="company-name">
+            <a href="#" class="company-name_link">Рога и копыта</a>
+          </h2>
+          <div class="company-location">Адрес: Саратовская обл.,Балаково, ул.Комарова, 137</div>
+          <div class="company-phone">Телефон: +7 (937) 639-52-91</div>
+          <div class="company-time">Время работы: пн-пт 8:00–17:00</div>
+        </div>
+        <div class="content__item">
+          <h2 class="company-name">
+            <a href="#" class="company-name_link">Рога и копыта</a>
+          </h2>
+          <div class="company-location">Адрес: Саратовская обл.,Балаково, ул.Комарова, 137</div>
+          <div class="company-phone">Телефон: +7 (937) 639-52-91</div>
+          <div class="company-time">Время работы: пн-пт 8:00–17:00</div>
+        </div>
+        <div class="content__item">
+          <h2 class="company-name">
+            <a href="#" class="company-name_link">Рога и копыта</a>
+          </h2>
+          <div class="company-location">Адрес: Саратовская обл.,Балаково, ул.Комарова, 137</div>
+          <div class="company-phone">Телефон: +7 (937) 639-52-91</div>
+          <div class="company-time">Время работы: пн-пт 8:00–17:00</div>
+        </div>
+        <div class="content__item">
+          <h2 class="company-name">
+            <a href="#" class="company-name_link">Рога и копыта</a>
+          </h2>
+          <div class="company-location">Адрес: Саратовская обл.,Балаково, ул.Комарова, 137</div>
+          <div class="company-phone">Телефон: +7 (937) 639-52-91</div>
+          <div class="company-time">Время работы: пн-пт 8:00–17:00</div>
+        </div>
+        <div class="content__item">
+          <h2 class="company-name">
+            <a href="#" class="company-name_link">Рога и копыта</a>
+          </h2>
+          <div class="company-location">Адрес: Саратовская обл.,Балаково, ул.Комарова, 137</div>
+          <div class="company-phone">Телефон: +7 (937) 639-52-91</div>
+          <div class="company-time">Время работы: пн-пт 8:00–17:00</div>
+        </div>
+        <div class="content__item">
+          <h2 class="company-name">
+            <a href="#" class="company-name_link">Рога и копыта</a>
+          </h2>
+          <div class="company-location">Адрес: Саратовская обл.,Балаково, ул.Комарова, 137</div>
+          <div class="company-phone">Телефон: +7 (937) 639-52-91</div>
+          <div class="company-time">Время работы: пн-пт 8:00–17:00</div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="regions-list">
+        <h3 class="regions-title">Регионы РФ</h3>
+        <ul class="regions">
+          <li class="region-item">Краснодарский край</li>
+          <li class="region-item">Краснодарский край</li>
+          <li class="region-item">Краснодарский край</li>
+          <li class="region-item">Краснодарский край</li>
+          <li class="region-item">Краснодарский край</li>
+        </ul>
+      </section>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
